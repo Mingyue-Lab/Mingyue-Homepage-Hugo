@@ -16,4 +16,5 @@
 4. 完成构建，构建后的文件在同目录的 `public` 文件夹下
 
 ### 其它链接
+- [Hugo Github](https://github.com/gohugoio/hugo)
 - [Hugo 主题列表](https://themes.gohugo.io/)
