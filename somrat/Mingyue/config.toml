@@ -1,0 +1,137 @@
+######################## default configuration ####################
+baseURL = "https://www.mingyuelab.cn"
+title = "明月网安实验室 | 湖南科技大学"
+theme = "somrat"
+# post pagination
+paginate = "6"
+# post excerpt
+summaryLength = "10"
+# disable language
+disableLanguages = [] # disable language from here
+# google analutics
+googleAnalytics = "" # example : UA-123-45
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+defaultContentLanguage = "zh"
+
+############################# Outputs ##############################
+[outputs]
+home = ["HTML"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap"
+[[params.plugins.css]]
+link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+[[params.plugins.css]]
+link = "plugins/hover/hover.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/owl-carousel/owl.carousel.min.css"
+[[params.plugins.css]]
+link = "plugins/owl-carousel/owl.theme.default.min.css"
+[[params.plugins.css]]
+link = "plugins/text-animation/text-animation.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/wow.min.js"
+[[params.plugins.js]]
+link = "plugins/text-animation/text-animation.js"
+[[params.plugins.js]]
+link = "plugins/jquery.waypoints.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/owl-carousel/owl.carousel.min.js"
+
+#################### default parameters ################################
+[params]
+favicon = "images/favicon.png"
+logo_light = "images/logo.png"
+logo_dark = "images/logo-dark.png"
+logo_width = "150px"
+# Meta data
+description = "明月网安介绍页"
+author = "Mingyue Studio"
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
+
+############################# social site ########################
+[[params.social]]
+icon = "fab fa-github"
+link = "https://github.com/Mingyue-Lab"
+
+[[params.social]]
+icon = "fab fa-qq"
+link = "#"
+
+############################# content #################################
+[Languages.zh]
+languageName = "zh"
+languageCode = "zh_CN"
+contentDir = "content/chinese"
+weight = 1
+home = "Home"
+# copyright
+copyright = "Copyright &copy; 2021 Mingyue Studio&nbsp;&nbsp;All Rights Reserved.<br>本页面基于开源项目 [Hugo](https://github.com/gohugoio/hugo) - [somrat](https://github.com/somratpro/somrat) 制作&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[湘ICP备2021004558号](https://beian.miit.gov.cn/)"
+
+################# navigation ##################
+# main menu
+
+[[Languages.zh.menu.main]]
+name = "首页"
+url = "/"
+weight = 1
+
+[[Languages.zh.menu.main]]
+name = "关于我们"
+pre = "#"
+url = "about"
+weight = 2
+
+[[Languages.zh.menu.main]]
+name = "技能"
+pre = "#"
+url = "service"
+weight = 3
+
+[[Languages.zh.menu.main]]
+name = "展示墙"
+pre = "#"
+url = "portfolio"
+weight = 4
+
+[[Languages.zh.menu.main]]
+name = "评价"
+pre = "#"
+url = "testimonial"
+weight = 5
+
+[[Languages.zh.menu.main]]
+name = "联系我们"
+pre = "#"
+url = "contact"
+weight = 6
+
+[[Languages.zh.menu.main]]
+name = "博客"
+url = "blog"
+weight = 7
