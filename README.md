@@ -3,7 +3,7 @@
 
 项目中的 `hugo.exe` 为64位 Windows 版本，如需使用其他操作系统请访问 [Hugo Releases](https://github.com/gohugoio/hugo/releases) 下载。
 
-**注意：**请勿上传任何敏感个人隐私信息。
+**注意：** 请勿上传任何敏感个人隐私信息。
 
 ### 如何本地预览
 1. 进入 `Mingyue` 目录
