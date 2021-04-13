@@ -1,5 +1,5 @@
 ---
-title : "明月网安"
+title : "网页建设中"
 # full screen navigation
 first_name : "湖南科技大学"
 last_name : "明月网安实验室"
