@@ -33,7 +33,7 @@ experience:
 ############################### Skill #################################
 skill:
   enable : true
-  title : "SKILL"
+  title : "ORIENTATION"
   skill_list:
     # skill item loop
     - name : "Web Development"

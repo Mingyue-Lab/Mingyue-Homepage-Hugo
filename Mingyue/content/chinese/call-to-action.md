@@ -1,10 +1,10 @@
 ---
-title : "NEED MORE INFO?"
+title : "LEARN MORE?"
 bg_image : "images/backgrounds/need-service.jpg"
 button:
   enable : true
-  label : "SAY HELLO!"
-  link : "#contact"
+  label : "CHECK BLOG!"
+  link : "https://www.mingyuelab.cn/blog/"
 
 
 # custom style
